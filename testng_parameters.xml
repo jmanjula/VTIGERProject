@@ -5,6 +5,7 @@
   <test thread-count="5" name="Test">
   <classes>
      <class name="testNG.prac.ParaMeterPassing"></class>
+     <class name=""></class>
      
     </classes>
   </test> <!-- Test -->

@@ -14,6 +14,7 @@ import objectRepository.orgPageClass;
 import testNG.prac.ListImpClass;
 
 @Listeners(ListImpClass.class)
+@Test(groups="regression")
 public class Orgnamevalidation extends Baseclass {
 
 	@Test
