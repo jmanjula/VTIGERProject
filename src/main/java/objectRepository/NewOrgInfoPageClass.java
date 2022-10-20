@@ -43,7 +43,13 @@ public class NewOrgInfoPageClass {
 			select.selectByVisibleText(orgName);
 		}
 		public String hText1() {
-			return hText.getText();
+			String arr=(String)hText.getText();
+			String arr1[]=arr.split(" ");
+			String value=arr1[0];
+			String value1=arr1[1];
+			String value2=arr1[2];
+			String value3=arr1[3];
+			return value3;
 		}
 
 
