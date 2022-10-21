@@ -15,7 +15,7 @@ import testNG.prac.ListImpClass;
 @Listeners(ListImpClass.class)
 public class creatingorgnameTest extends Baseclass {
 
-	@Test(groups = "smoke")
+	@Test(groups = {"smoke","integration"})
 
 	public void creatingorgnameTestNG() throws Throwable {
 

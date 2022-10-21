@@ -3,13 +3,14 @@
 <suite name="Suite">
 <groups>
 <run>
- <include name="regression"></include>
+ <include name="integration"></include>
 </run>
 </groups>
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.crm.vitiger3.testcases.Orgnamevalidation"/>
+      <class name="com.crm.vitiger3.testcases.creatingconTestNG"/>
       <class name="com.crm.vitiger3.testcases.creatingorgnameTest"/>
-        <class name="com.crm.vitiger3.testcases.Orgnamevalidation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
