@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.vitiger3.testcases.creatingorgnameTest">
+      <class name="testNG.prac.paraMeterPassing">
         <methods>
-          <include name="dataBaseDisconnected"/>
-          <include name="dataBaseconnection"/>
-          <include name="creatingorgnameTestNG"/>
-          <include name="logout"/>
-          <include name="launchBrowser"/>
-          <include name="logintoApp"/>
-          <include name="closeBrowser"/>
+          <include name="launchbrowser"/>
         </methods>
-      </class> <!-- com.crm.vitiger3.testcases.creatingorgnameTest -->
+      </class> <!-- testNG.prac.paraMeterPassing -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
