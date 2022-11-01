@@ -1,165 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="14" passed="6" failed="0" skipped="0">
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-21T10:15:19 IST" name="Suite" finished-at="2022-10-21T10:18:53 IST" duration-ms="213947">
+  <suite started-at="2022-11-01T17:33:27 IST" name="Suite" finished-at="2022-11-01T17:34:36 IST" duration-ms="69064">
     <groups>
       <group name="regression">
-        <method signature="Orgnamevalidation.orgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4b0d79fc]" name="orgnameTestNG" class="com.crm.vitiger3.testcases.Orgnamevalidation"/>
-        <method signature="Orgnamevalidation.orgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4145bad8]" name="orgnameTestNG" class="com.crm.vitiger3.testcases.Orgnamevalidation"/>
+        <method signature="Orgnamevalidation.orgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@59505b48]" name="orgnameTestNG" class="com.crm.vitiger3.testcases.Orgnamevalidation"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="creatingorgnameTest.creatingorgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@72e5a8e]" name="creatingorgnameTestNG" class="com.crm.vitiger3.testcases.creatingorgnameTest"/>
-        <method signature="creatingorgnameTest.creatingorgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@2892d68]" name="creatingorgnameTestNG" class="com.crm.vitiger3.testcases.creatingorgnameTest"/>
+        <method signature="creatingorgnameTest.creatingorgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@783a467b]" name="creatingorgnameTestNG" class="com.crm.vitiger3.testcases.creatingorgnameTest"/>
       </group> <!-- smoke -->
       <group name="integration">
-        <method signature="creatingconTestNG.creatingConTestNg()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7d4f9aae]" name="creatingConTestNg" class="com.crm.vitiger3.testcases.creatingconTestNG"/>
-        <method signature="creatingconTestNG.creatingConTestNg()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@d86a6f]" name="creatingConTestNg" class="com.crm.vitiger3.testcases.creatingconTestNG"/>
+        <method signature="creatingconTestNG.creatingConTestNg()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7db12bb6]" name="creatingConTestNg" class="com.crm.vitiger3.testcases.creatingconTestNG"/>
+        <method signature="creatingorgnameTest.creatingorgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@783a467b]" name="creatingorgnameTestNG" class="com.crm.vitiger3.testcases.creatingorgnameTest"/>
       </group> <!-- integration -->
     </groups>
-    <test started-at="2022-10-21T10:15:19 IST" name="Test" finished-at="2022-10-21T10:17:26 IST" duration-ms="126714">
+    <test started-at="2022-11-01T17:33:27 IST" name="Test" finished-at="2022-11-01T17:34:36 IST" duration-ms="69064">
       <class name="com.crm.vitiger3.testcases.creatingconTestNG">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7d4f9aae]" started-at="2022-10-21T10:16:28 IST" name="launchBrowser" finished-at="2022-10-21T10:16:31 IST" duration-ms="2827" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7db12bb6]" started-at="2022-11-01T17:33:53 IST" name="launchBrowser" finished-at="2022-11-01T17:33:55 IST" duration-ms="2568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7d4f9aae]" started-at="2022-10-21T10:16:31 IST" name="logintoApp" finished-at="2022-10-21T10:16:36 IST" duration-ms="4980" status="PASS">
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7db12bb6]" started-at="2022-11-01T17:33:55 IST" name="logintoApp" finished-at="2022-11-01T17:33:59 IST" duration-ms="3109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoApp -->
-        <test-method signature="creatingConTestNg()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7d4f9aae]" started-at="2022-10-21T10:16:36 IST" name="creatingConTestNg" finished-at="2022-10-21T10:17:07 IST" duration-ms="30957" status="PASS">
+        <test-method signature="creatingConTestNg()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7db12bb6]" started-at="2022-11-01T17:33:59 IST" name="creatingConTestNg" finished-at="2022-11-01T17:34:22 IST" duration-ms="23482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingConTestNg -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7d4f9aae]" started-at="2022-10-21T10:17:07 IST" name="logout" finished-at="2022-10-21T10:17:07 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7db12bb6]" started-at="2022-11-01T17:34:22 IST" name="logout" finished-at="2022-11-01T17:34:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7d4f9aae]" started-at="2022-10-21T10:17:07 IST" name="closeBrowser" finished-at="2022-10-21T10:17:07 IST" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@7db12bb6]" started-at="2022-11-01T17:34:22 IST" name="closeBrowser" finished-at="2022-11-01T17:34:22 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.crm.vitiger3.testcases.creatingconTestNG -->
       <class name="com.crm.vitiger3.testcases.Orgnamevalidation">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4b0d79fc]" started-at="2022-10-21T10:15:19 IST" name="launchBrowser" finished-at="2022-10-21T10:15:32 IST" duration-ms="12602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4b0d79fc]" started-at="2022-10-21T10:15:32 IST" name="logintoApp" finished-at="2022-10-21T10:15:45 IST" duration-ms="12431" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoApp -->
-        <test-method signature="orgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4b0d79fc]" started-at="2022-10-21T10:15:45 IST" name="orgnameTestNG" finished-at="2022-10-21T10:16:28 IST" duration-ms="43207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orgnameTestNG -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4b0d79fc]" started-at="2022-10-21T10:16:28 IST" name="logout" finished-at="2022-10-21T10:16:28 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4b0d79fc]" started-at="2022-10-21T10:16:28 IST" name="closeBrowser" finished-at="2022-10-21T10:16:28 IST" duration-ms="167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.vitiger3.testcases.Orgnamevalidation -->
-      <class name="com.crm.vitiger3.testcases.creatingorgnameTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@72e5a8e]" started-at="2022-10-21T10:17:07 IST" name="launchBrowser" finished-at="2022-10-21T10:17:10 IST" duration-ms="2756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@72e5a8e]" started-at="2022-10-21T10:17:10 IST" name="logintoApp" finished-at="2022-10-21T10:17:14 IST" duration-ms="4483" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoApp -->
-        <test-method signature="creatingorgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@72e5a8e]" started-at="2022-10-21T10:17:14 IST" name="creatingorgnameTestNG" finished-at="2022-10-21T10:17:26 IST" duration-ms="11484" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatingorgnameTestNG -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@72e5a8e]" started-at="2022-10-21T10:17:26 IST" name="logout" finished-at="2022-10-21T10:17:26 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@72e5a8e]" started-at="2022-10-21T10:17:26 IST" name="closeBrowser" finished-at="2022-10-21T10:17:26 IST" duration-ms="507" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.vitiger3.testcases.creatingorgnameTest -->
-    </test> <!-- Test -->
-    <test started-at="2022-10-21T10:17:26 IST" name="Test1" finished-at="2022-10-21T10:18:53 IST" duration-ms="87210">
-      <class name="com.crm.vitiger3.testcases.creatingconTestNG">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@d86a6f]" started-at="2022-10-21T10:17:56 IST" name="launchBrowser" finished-at="2022-10-21T10:17:58 IST" duration-ms="2844" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@d86a6f]" started-at="2022-10-21T10:17:58 IST" name="logintoApp" finished-at="2022-10-21T10:18:03 IST" duration-ms="4564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoApp -->
-        <test-method signature="creatingConTestNg()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@d86a6f]" started-at="2022-10-21T10:18:03 IST" name="creatingConTestNg" finished-at="2022-10-21T10:18:33 IST" duration-ms="30306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatingConTestNg -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@d86a6f]" started-at="2022-10-21T10:18:33 IST" name="logout" finished-at="2022-10-21T10:18:33 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingconTestNG@d86a6f]" started-at="2022-10-21T10:18:33 IST" name="closeBrowser" finished-at="2022-10-21T10:18:34 IST" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.vitiger3.testcases.creatingconTestNG -->
-      <class name="com.crm.vitiger3.testcases.Orgnamevalidation">
-        <test-method is-config="true" signature="dataBaseconnection()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4145bad8]" started-at="2022-10-21T10:15:19 IST" name="dataBaseconnection" finished-at="2022-10-21T10:15:19 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="dataBaseconnection()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@59505b48]" started-at="2022-11-01T17:33:27 IST" name="dataBaseconnection" finished-at="2022-11-01T17:33:27 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataBaseconnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4145bad8]" started-at="2022-10-21T10:17:26 IST" name="launchBrowser" finished-at="2022-10-21T10:17:29 IST" duration-ms="2886" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@59505b48]" started-at="2022-11-01T17:33:27 IST" name="launchBrowser" finished-at="2022-11-01T17:33:34 IST" duration-ms="6835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4145bad8]" started-at="2022-10-21T10:17:29 IST" name="logintoApp" finished-at="2022-10-21T10:17:34 IST" duration-ms="4682" status="PASS">
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@59505b48]" started-at="2022-11-01T17:33:34 IST" name="logintoApp" finished-at="2022-11-01T17:33:37 IST" duration-ms="3269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoApp -->
-        <test-method signature="orgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4145bad8]" started-at="2022-10-21T10:17:34 IST" name="orgnameTestNG" finished-at="2022-10-21T10:17:55 IST" duration-ms="21285" status="PASS">
+        <test-method signature="orgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@59505b48]" started-at="2022-11-01T17:33:37 IST" name="orgnameTestNG" finished-at="2022-11-01T17:33:53 IST" duration-ms="15402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orgnameTestNG -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4145bad8]" started-at="2022-10-21T10:17:55 IST" name="logout" finished-at="2022-10-21T10:17:55 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@59505b48]" started-at="2022-11-01T17:33:53 IST" name="logout" finished-at="2022-11-01T17:33:53 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4145bad8]" started-at="2022-10-21T10:17:55 IST" name="closeBrowser" finished-at="2022-10-21T10:17:56 IST" duration-ms="569" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@59505b48]" started-at="2022-11-01T17:33:53 IST" name="closeBrowser" finished-at="2022-11-01T17:33:53 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="dataBaseDisconnected()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@4145bad8]" started-at="2022-10-21T10:18:53 IST" name="dataBaseDisconnected" finished-at="2022-10-21T10:18:53 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="dataBaseDisconnected()[pri:0, instance:com.crm.vitiger3.testcases.Orgnamevalidation@59505b48]" started-at="2022-11-01T17:34:36 IST" name="dataBaseDisconnected" finished-at="2022-11-01T17:34:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataBaseDisconnected -->
       </class> <!-- com.crm.vitiger3.testcases.Orgnamevalidation -->
       <class name="com.crm.vitiger3.testcases.creatingorgnameTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@2892d68]" started-at="2022-10-21T10:18:34 IST" name="launchBrowser" finished-at="2022-10-21T10:18:36 IST" duration-ms="2779" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@783a467b]" started-at="2022-11-01T17:34:22 IST" name="launchBrowser" finished-at="2022-11-01T17:34:25 IST" duration-ms="2363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@2892d68]" started-at="2022-10-21T10:18:36 IST" name="logintoApp" finished-at="2022-10-21T10:18:41 IST" duration-ms="4601" status="PASS">
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@783a467b]" started-at="2022-11-01T17:34:25 IST" name="logintoApp" finished-at="2022-11-01T17:34:28 IST" duration-ms="3117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoApp -->
-        <test-method signature="creatingorgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@2892d68]" started-at="2022-10-21T10:18:41 IST" name="creatingorgnameTestNG" finished-at="2022-10-21T10:18:53 IST" duration-ms="11941" status="PASS">
+        <test-method signature="creatingorgnameTestNG()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@783a467b]" started-at="2022-11-01T17:34:28 IST" name="creatingorgnameTestNG" finished-at="2022-11-01T17:34:35 IST" duration-ms="7737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingorgnameTestNG -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@2892d68]" started-at="2022-10-21T10:18:53 IST" name="logout" finished-at="2022-10-21T10:18:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@783a467b]" started-at="2022-11-01T17:34:35 IST" name="logout" finished-at="2022-11-01T17:34:35 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@2892d68]" started-at="2022-10-21T10:18:53 IST" name="closeBrowser" finished-at="2022-10-21T10:18:53 IST" duration-ms="424" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vitiger3.testcases.creatingorgnameTest@783a467b]" started-at="2022-11-01T17:34:35 IST" name="closeBrowser" finished-at="2022-11-01T17:34:36 IST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.crm.vitiger3.testcases.creatingorgnameTest -->
-    </test> <!-- Test1 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.prac.paraMeterPassing">
+      <class name="testNG.prac.ExtentReports">
         <methods>
-          <include name="launchbrowser"/>
+          <include name="createReports"/>
         </methods>
-      </class> <!-- testNG.prac.paraMeterPassing -->
+      </class> <!-- testNG.prac.ExtentReports -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
