@@ -20,7 +20,7 @@ public class ExtentReports_1 {
 	
 	@Test
 	public void createReports() {
-		reporter=new ExtentSparkReporter("./ExtentReprts/SDET.html");
+		reporter=new ExtentSparkReporter("./ExtentReports/SDET.html");
 		reporter.config().setDocumentTitle("New FB");
 		reporter.config().setTheme(Theme.STANDARD);
 		
